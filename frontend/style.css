@@ -9,9 +9,17 @@
     height: 75px;
     display: block;
     font-size: 12px;
+    background-color: transparent;
 }
 
 .cell.fillable {
     font-size: 40px;
     text-align: center;
+}
+
+#game {
+    background-image: url('./crossword.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 800px;
 }
